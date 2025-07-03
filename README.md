@@ -33,14 +33,14 @@ It includes the following folders and subfolders:
 1. clone the repo recursively
 
 ```sh
-git clone --recurse-submodules https://github.com/giulioturrisi/Self-Balancing-Robot.git
+git clone --recurse-submodules https://github.com/Jagadeeshrayudu/Self-Balancing-Robot_MPC.git
 ```
 
 
 2. install [miniforge](https://github.com/conda-forge/miniforge/releases) (x86_64) 
 
 
-3. create an environment using the file in the folder [installation/conda](https://github.com/giulioturrisi/Self-Balancing-Robot/tree/master/installation/conda):
+3. create an environment using the file in the folder [installation/conda](https://github.com/Jagadeeshrayudu/Self-Balancing-Robot_MPC/tree/master/installation/conda):
 
 ```sh
     conda env create -f mamba_environment.yml
@@ -64,7 +64,7 @@ ulimit -s unlimited
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
-7. (Optional if you need acados) go inside the [acados](https://github.com/giulioturrisi/Self-Balancing-Robot/tree/master/python_scripts/controllers/acados)/acados folder and press
+7. (Optional if you need acados) go inside the [acados](https://github.com/Jagadeeshrayudu/Self-Balancing-Robot_MPC/tree/master/python_scripts/controllers/acados)/acados folder and press
   
 ```sh
 mkdir build
