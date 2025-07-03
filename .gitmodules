@@ -1,0 +1,12 @@
+[submodule "ros2_ws/src/external/ros2_bubble_rob"]
+	path = ros2_ws/src/external/ros2_bubble_rob
+	url = https://github.com/CoppeliaRobotics/ros2_bubble_rob.git
+[submodule "ros2_ws/src/external/tf_transformations"]
+	path = ros2_ws/src/external/tf_transformations
+	url = https://github.com/DLu/tf_transformations.git
+[submodule "ros2_ws/src/external/simROS2"]
+	path = ros2_ws/src/external/simROS2
+	url = https://github.com/CoppeliaRobotics/simROS2.git
+[submodule "python_scripts/controllers/acados/acados"]
+	path = python_scripts/controllers/acados/acados
+	url = https://github.com/acados/acados
