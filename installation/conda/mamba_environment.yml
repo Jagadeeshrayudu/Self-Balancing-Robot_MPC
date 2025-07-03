@@ -1,0 +1,35 @@
+name: twip_env
+channels:
+- conda-forge
+- nvidia
+- robostack-staging
+dependencies:
+- python
+- casadi==3.6.5
+- numpy
+- matplotlib
+- jaxlib=*=*cuda*
+- jax
+- cuda-nvcc
+- hpp-fcl 
+- example-robot-data 
+- pinocchio
+- jupyterlab 
+- meshcat-python 
+- scipy 
+- ipywidgets
+- ros-humble-desktop
+- compilers 
+- cmake 
+- pkg-config 
+- make 
+- ninja 
+- colcon-common-extensions 
+- catkin_tools 
+- rosdep
+- pip:
+  - transforms3d
+  - xmlschema
+  - mujoco
+
+
